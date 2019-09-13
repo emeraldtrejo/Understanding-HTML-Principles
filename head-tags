@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="eng">
+
+<!--  Meta tag is verstaile, set descriptions of page which SE find -->
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- focus on keywords matching with SEO  -->
+  
+  <meta name="description" content="Description about products and services Company Name">
+  
+  <title>HeadTags</title>
+</head>
+<body>
+
+
+<p>
+Test
+</p>
+
+</body>
+</html>
