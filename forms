@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Tags</title>
+</head>
+<body>
+
+<h1>Jobs at Company</h1>
+<!--action attribute tells where to send data to,   -->
+<!--method specifiies type of method of get or post (send data more discrete)  -->
+<form action="#" method="post">
+
+  <fieldset>
+    <legend>Contact Info</legend>
+    <div>
+      <label for="name">Name</label>
+      <!--name attribute defines the name of the field important for processing script  -->
+      <!--id allows it to tie with the label  -->
+      <input type="text" name="name" id="name">
+    </div>
+    
+    <div>
+      <label for="email">  E-mail</label>
+      <!--name attribute defines the name of the field important for processing script  -->
+      <!--id allows it to tie with the label  -->
+      <input type="email" name="email" id="email">
+    </div>
+  
+    <div>
+      <label for="tel">  Telephone</label>
+      <!--name attribute defines the name of the field important for processing script  -->
+      <!--id allows it to tie with the label  -->
+      <input type="tel" name="tel" id="tel">
+    </div>
+   
+    <div>
+      <label for="city">  City</label>
+      <!--name attribute defines the name of the field important for processing script  -->
+      <!--id allows it to tie with the label  -->
+      <input type="text" name="city" id="city">
+    </div>
+   
+     <div>
+      <label for="state">   State</label>
+      <!--name attribute defines the name of the field important for processing script  -->
+      <!--id allows it to tie with the label  -->
+      <select name="state" id="state">
+        <option value=""> --choose --</option>
+        <option value=""> State 1 </option>
+        <option value=""> State 2 </option>
+        <option value=""> State 3 </option>
+       </select>
+    </div>  
+    </fieldset>
+<fieldset>
+   <legend> Other Info</legend>
+  <div>
+    <label>Gender</label>
+    <label>
+      <!--have to have same name for both options so they can be part of same group -->
+      <input type="radio" name="gender" value="m"> M
+     </label>
+     <label>
+      <input type="radio" name="gender" value="f"> F
+     </label>
+  </div>
+  <div>
+    <label>Certifications</label>
+    <label>
+      <input type="checkbox" name="certifications" value="1"> Option 1
+    </label>
+    <label>
+      <input type="checkbox" name="certifications" value="2"> Option 2
+    </label>
+    <label>
+      <input type="checkbox" name="certifications" value="3"> Option 3
+    </label>
+  </div>
+    CV
+    Message
+</fieldset>
+
+    Send
+</form>
+	
+</body>
+</html>
