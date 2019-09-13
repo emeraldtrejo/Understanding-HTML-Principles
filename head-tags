@@ -9,7 +9,20 @@
   
   <meta name="description" content="Description about products and services Company Name">
   
+  <!-- calls to display the css backgtround  -->
+  <link rel="stylesheet" href="test.css">
+  
+  <!-- this calls the icon to be displayed on the tab  -->
+  <link rel="icon" href="favuicon.ico">
+  
   <title>HeadTags</title>
+  
+  <!-- style tag always needs to be used in the head tag  -->
+  <style>
+    p {
+      background: green;
+    }
+  </style>
 </head>
 <body>
 
